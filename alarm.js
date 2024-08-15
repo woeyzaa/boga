@@ -1,8 +1,7 @@
-const axios = require('axios');
+const axios = require('axios-proxy-fix');
 const chalk = require('chalk');
 const cheerio = require('cheerio');
 const TelegramBot = require('node-telegram-bot-api');
-const userAgents = require('user-agents');
 
 // Gantilah token dan chatId dengan informasi bot Telegram Anda
 const telegramToken = '7413770897:AAEnPRCFqtGG9lgtuRSXnnsCEY6lvqhrSZU';
@@ -10,16 +9,16 @@ const chatId = '-1002158844099';
 
 const bot = new TelegramBot(telegramToken, { polling: false });
 
-// Proxy configuration (optional)
-const proxyUrl = 'http://43.152.112.135:12986'; // Replace with your proxy URL and port
-const agent = proxyUrl ? new HttpsProxyAgent(proxyUrl) : null;
-
 let expiredPopUp = false;
 
-// Function to generate a random user-agent
-function getRandomUserAgent() {
-    return new userAgents().toString();
-}
+const proxy = {
+    host: 'resi-as.lightningproxies.net',
+    port: 9999,
+    auth: {
+        username: 'fahreza588-zone-resi-region-id',
+        password: 'fahreza588'
+    }
+};
 
 async function checkSession() {
     try {
@@ -30,9 +29,9 @@ async function checkSession() {
                 'accept-language': 'en-US,en;q=0.9',
                 'cookie': 'your-cookie-here',
                 'referer': 'https://loyalty.aldmic.com/',
-                'user-agent': getRandomUserAgent() // Use random user-agent
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
             },
-            httpsAgent: agent // Use proxy if configured
+            proxy: proxy
         });
 
         console.log(' [!] ' + chalk.blueBright('Wait for Relogin...'));
@@ -64,9 +63,9 @@ async function checkReward() {
                 'cache-control': 'max-age=0',
                 'cookie': 'cross-site-cookie=name; one-ux=eyJpdiI6Ik0wclZjMUQ0MFI1ZFZsbitYV1hpV1E9PSIsInZhbHVlIjoia205YUpqQ0hcL1dwYWdHb3RseGx1YWc9PSIsIm1hYyI6IjQzODY5MmJhZmI5N2VjYWNiYzVmMTY4MzE3MWNhNWRmMzNhNmFkYzA1NGRmMzViMDJlNzRmM2I5ZTkzYWVlOGUifQ%3D%3D; source_site=eyJpdiI6ImpoUUQzRktmV1NPRVFwXC9EVm5ZRXlBPT0iLCJ2YWx1ZSI6Im55ZWlRdDM2WTF5dkdacjdDZWRSRjlYdlBJeGcrd3dTdU9ZZGJnUEFnWDg9IiwibWFjIjoiNWM2OThkYzU2M2EwZTViNWQ5ZTg0N2IzYTNjMmVhNmE1MjZjMGRmOWYwNTY5MDA3ZWVjNTFlZmVkNWE1ZmFlYSJ9; XSRF-TOKEN=eyJpdiI6Iklob1JzOW9La0tvdjNzcXNJXC9pVEh3PT0iLCJ2YWx1ZSI6IkVqSHhXSVBwS3RLZUV2aFppaDdwakZZMGpFM3FUVXBydGhHZWtxa0J1QytMa1hEeTVQRUZEWlVKZ1h1TnBTMDMiLCJtYWMiOiIxYWRjYWYwOWI3ZmM5NTAxNGE3ZjQwYmU2ZTMyZjIyY2FhMjRiNDVjZmI2ZTNmNjAyNTU0MzE0ZWZkZmI0Mjg2In0%3D; aldmic_session=eyJpdiI6IjN0cXhBQ096T01mXC9IeU4yNDZsUkJ3PT0iLCJ2YWx1ZSI6IkkrTTRGOUdKN014VHYrc0tzVWpQUjMzQmk4dWUrQTRDaVZVM1YySFwveEU3cE5KNThOUVFrUE9HQk5QZTJMZ1BpIiwibWFjIjoiYzMzOTQyOTA0YzNlOGNlMzFiODY0ZWE2ZTQ0MTU4YjZkZDA3YmVhMzMwYjQ0NWQ3OWJmMGI2MTdmMzIxMWE4ZSJ9; cf_clearance=sheXHzmTQ0zcV6emgf7zm4cbJOfZgxKIoI_HeEBGGZg-1723558277-1.0.1.1-.low9O7.su_xpqmR4X_06yRNjDKteI1w_EYeCfroVlxyb_FNeapDecJ.OGD7wAWKMH._TH8bBGlvRbJguXsYjQ',
                 'referer': 'https://loyalty.aldmic.com/reward',
-                'user-agent': getRandomUserAgent() // Use random user-agent
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
             },
-            httpsAgent: agent // Use proxy if configured
+            proxy: proxy
         });
 
         const $ = cheerio.load(response.data);
