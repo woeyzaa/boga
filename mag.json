@@ -13,7 +13,7 @@
     },
     {
         "domain": "loyalty.aldmic.com",
-        "expirationDate": 1734846292.859429,
+        "expirationDate": 1734846447.477353,
         "hostOnly": true,
         "httpOnly": false,
         "name": "XSRF-TOKEN",
@@ -22,11 +22,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJpdiI6InY2WjMwVURtNkp6ZVwvVzVSeGo3cXNRPT0iLCJ2YWx1ZSI6Ikd1cjBybWZYRzduMmcrXC9CbkJqbHVvb1YrWmpmSDZqWFpJbDlJbk1rWmZlM3hWWWNxT2NUXC9EMVV6VWtpeVVGOCIsIm1hYyI6IjYzYWFiODM4ZmJmMjUwOTJkOWRkYjc0MmU3ZDEzN2M4MzVmOWQ2NDQwYTBjMTc0NzQzZDUxY2JhNjU2YjExOTkifQ%3D%3D"
+        "value": "eyJpdiI6InNyXC82cTd1TDRoVzQrdFhMWHZIeGZBPT0iLCJ2YWx1ZSI6ImhBbG5xeVQwZUFiZVpsaTcyOEFOMlVaQk16QThFdU5OQ3R2QjhkWEQrb09Ua3dsc09rSVczSmM2YmJKbWFGV0YiLCJtYWMiOiJhM2VkYzliMjQwNDcyMWU1ZWQ0NTU0Y2RhZDBkYzcxMzRlN2ZlNDE2NDZlYjk5ODcyY2M4ZGE1ZDNkN2IyMWUwIn0%3D"
     },
     {
         "domain": ".aldmic.com",
-        "expirationDate": 1769399082.619909,
+        "expirationDate": 1769399219.496771,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_ga",
@@ -39,7 +39,7 @@
     },
     {
         "domain": ".aldmic.com",
-        "expirationDate": 1769399082.638707,
+        "expirationDate": 1769399219.496556,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_ga_KT34JXK1TR",
@@ -48,11 +48,11 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "GS1.1.1734839061.7.1.1734839082.0.0.0"
+        "value": "GS1.1.1734839061.7.1.1734839219.0.0.0"
     },
     {
         "domain": "loyalty.aldmic.com",
-        "expirationDate": 1734846292.859459,
+        "expirationDate": 1734846447.477383,
         "hostOnly": true,
         "httpOnly": true,
         "name": "aldmic_session",
@@ -61,6 +61,6 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJpdiI6IkloOHAzZFFSYVBNSDFWTHZJRUxqSUE9PSIsInZhbHVlIjoicE5qSEtpalZCZWJIclBYcDhpSlZJdkZUT29rWFN4bUhxMFFZdVQrU1ZpMDU2UGYwUzlCV08xZ210WVVSa0w5RiIsIm1hYyI6IjIwOGMxNTc3MWM1MGY4YzQ4YTgxNDE4NGE5MjY0NDAyMzAwZDY2ZDJmNGQwNTUxYWJiMzk0ZGY2NDIwODhmOTUifQ%3D%3D"
+        "value": "eyJpdiI6IkpvSWZrcjJGUjhvVFUyMk5GaWxVcnc9PSIsInZhbHVlIjoiSlROR0M5QW5RZ2JIc1p1UzBGUTZ0dlFzQnhzNXllZmgzdStLRVhqb1crb0NJb1YydDJuWkRkTTlJWEljN015MSIsIm1hYyI6Ijg2ZjhjMzRkMGU2N2YzOTcwNDYxMzZhYTZkN2Q2NzI1OTA1ZmY4Y2UyNmZhMzJlODkxMzMwYWExNTdmM2NhMjQifQ%3D%3D"
     }
 ]
