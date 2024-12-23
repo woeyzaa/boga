@@ -1,6 +1,19 @@
 [
     {
         "domain": "loyalty.aldmic.com",
+        "expirationDate": 1734984664.09823,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "source_site",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6IkNQd0dETFBsWElsMGFZaWllTTgwOGc9PSIsInZhbHVlIjoiRTRlamtSWTFHSTVvSElsSDd4a3Q1cjJZMEthVWdjNmVHU2FYdkxEbXh2VT0iLCJtYWMiOiIzYTI5OWUyNDExM2E0ODNmMTkwNzJlOWU4YTJkNzhiMGIxODZlZjc2NDE5N2U2YzFhNDY2YjQ4ZWUwNTFhODllIn0%3D"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
         "hostOnly": true,
         "httpOnly": true,
         "name": "cross-site-cookie",
@@ -13,7 +26,7 @@
     },
     {
         "domain": "loyalty.aldmic.com",
-        "expirationDate": 1734846447.477353,
+        "expirationDate": 1734973902.882723,
         "hostOnly": true,
         "httpOnly": false,
         "name": "XSRF-TOKEN",
@@ -22,11 +35,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJpdiI6InNyXC82cTd1TDRoVzQrdFhMWHZIeGZBPT0iLCJ2YWx1ZSI6ImhBbG5xeVQwZUFiZVpsaTcyOEFOMlVaQk16QThFdU5OQ3R2QjhkWEQrb09Ua3dsc09rSVczSmM2YmJKbWFGV0YiLCJtYWMiOiJhM2VkYzliMjQwNDcyMWU1ZWQ0NTU0Y2RhZDBkYzcxMzRlN2ZlNDE2NDZlYjk5ODcyY2M4ZGE1ZDNkN2IyMWUwIn0%3D"
+        "value": "eyJpdiI6IlZLN3cwREppMWNcL3gxZmxLNDY5SFZRPT0iLCJ2YWx1ZSI6IkNnbzZGdFk5YVlqZmQ4Mk14N0FcL1p5MXJjTzRIRVdzQ1FrSEdiSm0wZ3NqXC9OSFVJN0dkZ2ZGQm9QVGRiV1wvZFMiLCJtYWMiOiI1NjU2ODgwNGI5OWVlNWRkZTA3YWQ1NWY4OGIxNmNiMzU1MGQwYTBiNjVjYzg1NTdjYmQ5ZDA2YTkwZGY3Mjg3In0%3D"
     },
     {
         "domain": ".aldmic.com",
-        "expirationDate": 1769399219.496771,
+        "expirationDate": 1769526667.821128,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_ga",
@@ -35,11 +48,11 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "GA1.1.495397120.1734628429"
+        "value": "GA1.1.552716723.1734628613"
     },
     {
         "domain": ".aldmic.com",
-        "expirationDate": 1769399219.496556,
+        "expirationDate": 1769526667.70495,
         "hostOnly": false,
         "httpOnly": false,
         "name": "_ga_KT34JXK1TR",
@@ -48,11 +61,24 @@
         "secure": false,
         "session": false,
         "storeId": null,
-        "value": "GS1.1.1734839061.7.1.1734839219.0.0.0"
+        "value": "GS1.1.1734966667.9.0.1734966667.0.0.0"
+    },
+    {
+        "domain": ".aldmic.com",
+        "expirationDate": 1769526667.834537,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga_VECWPT7Y1V",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "GS1.1.1734966597.2.1.1734966667.51.0.0"
     },
     {
         "domain": "loyalty.aldmic.com",
-        "expirationDate": 1734846447.477383,
+        "expirationDate": 1734973902.88275,
         "hostOnly": true,
         "httpOnly": true,
         "name": "aldmic_session",
@@ -61,6 +87,19 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJpdiI6IkpvSWZrcjJGUjhvVFUyMk5GaWxVcnc9PSIsInZhbHVlIjoiSlROR0M5QW5RZ2JIc1p1UzBGUTZ0dlFzQnhzNXllZmgzdStLRVhqb1crb0NJb1YydDJuWkRkTTlJWEljN015MSIsIm1hYyI6Ijg2ZjhjMzRkMGU2N2YzOTcwNDYxMzZhYTZkN2Q2NzI1OTA1ZmY4Y2UyNmZhMzJlODkxMzMwYWExNTdmM2NhMjQifQ%3D%3D"
+        "value": "eyJpdiI6Ikd2UVwvSzNJUlhMWVA0Rk1ndjRkMVlBPT0iLCJ2YWx1ZSI6IkFxeURNUEZrMkRSa3YzcGpESGo3RFFXdFNaXC9rZXcxcmRUanFFN0w0Y1pUb1NBUEdRSjE4M0p6ZktwTFVncjNUIiwibWFjIjoiZGJhYTY2MjcyMGUyMDE0YjRlYjM2MjA2ZmFkNDU5NDU5Mjg1NDg0OTk2YTY2Zjc2ZTYzMTQxZDgxZGE0YjAzZiJ9"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1734984664.098216,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "one-ux",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6ImFUMU92N2duU2c4Q3dSMDZ3R1wvd29nPT0iLCJ2YWx1ZSI6IjNmYkxmREoyUlRUcFVOU0hhTWNNNnc9PSIsIm1hYyI6IjUzYWRiMWE1NmY4ZWE5ZDhkYjExY2VmY2Y5NjQ2NmZlYzg5MmRhYzM4YjY2NDkzMGFmYmJkMzc0M2UzODQ0YzgifQ%3D%3D"
     }
 ]
