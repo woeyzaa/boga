@@ -1,1 +1,66 @@
-_ga=GA1.1.204151852.1724968900; cf_clearance=r4TUgiKbojEwVEggI_z0DrQw5a8v5m1ukXQx_OeiQgo-1736367546-1.2.1.1-laX60GL9xcyivuuA3XuJUc_sb8kDI_ANvlJA1UCN0iaaf6p9kVyG4zmH9UdtqiHSJcSn6sikC3z6taOU0uBLI346vYIJ.GN7vy6ksfNPsrrOAdp1H5ehOh0.INLO_05CRJtGmOZ44VpJk9IUJZR6w2YO.VSg2TgKTEMPt.9.nuE9ZMhTV8.udSa2JZoQ6HlgFxMFktREzUpnh24WWxDyiQfMzLrIKseoGwTGzw4PvR9.dZjVIGcYCiIUYwxZSv5asohVRp4Sl1d7iAY6eVN2WumcqtQCums0tAVu0Wf84nlT5OC43OAgoupoIxKEsP6hJpKXaelDFZ.g4mPrBZZxQlqXs2JIrEkyBZAeP3ZR8F8zFN5zeK0Lcs0rc0iTy7gS; _ga_KT34JXK1TR=GS1.1.1736355721.15.1.1736367785.0.0.0; _ga_FMSMYXCPPJ=GS1.1.1736355721.2.1.1736367785.10.0.0; XSRF-TOKEN=eyJpdiI6ImJhTkVtSVVqUlVwV0tBRjgrM1R2YUE9PSIsInZhbHVlIjoiMWlmQ0ZzXC90d2FIS0xqc29jSEdFSVE9PSIsIm1hYyI6IjFmYTdmZTlhZTdmOWZlMTZjODlhYzQ2MDk2OTgxOTA4NWNhZTk4MzY0YzgzODQ4NDdmZWVlMTQ1ZjgzMTlkYzgifQ%3D%3D; aldmic_session=eyJpdiI6ImZUeTg2ZVhWVVd5MFRzM2M0WTlLR0E9PSIsInZhbHVlIjoiQXRMOW80YlhPbW9kSkphaEN1YTRlNytBWm9xNVVzaEFvQ3dGSHBCUndabURMXC9rZEhiK2d3b0RwcVlWUWVxMDYiLCJtYWMiOiJhNGUwMjkwYWRjMDQ1OGJiNzFkY2E1OGI0Zjk4YzcyNzkwYmVhMjI0ODc1MmExMTIxNDYwZmUyNDIxYTdjZTM4In0%3D; one-ux=eyJpdiI6IjNSMEh5UThpbk9sK0w5eFlCeDFIS1E9PSIsInZhbHVlIjoiTzl6OGE2alwvWDcwSkF3djNsU2Exbmc9PSIsIm1hYyI6ImZjNDdkMDliZDYxY2JmYjEzNTA3MjExNDQxNmMzMzgxZTE2NmZmODA3NGI1MWJlYTNmZTFjNDFjYWQ0YTljM2YifQ%3D%3D; source_site=eyJpdiI6IkZLSmxzSGVHNks4cHEwSGhZRVMwTWc9PSIsInZhbHVlIjoiMlB1d2pDdTIyTGp0c3ZteGJZS3djOWExeERteUlvTkFlRVlmUzEzcURKaz0iLCJtYWMiOiI0Nzg0YTIyMWUzMGU2NjNlMmQ0M2FlODg4MDE2NjZiNWNiYzdhYzExNjllNzk1Y2M5NzVlYzM2YzhmOTYyZmQzIn0%3D
+[
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1736385989.953241,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "source_site",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6IjVFbjk2TTlZQnZHTHJBekppNFRoR3c9PSIsInZhbHVlIjoicVl4UGlLVGhoVzg5M1ZWSHRkOGVrSThneFZOMHdZYlZZZWlqQTF2cDZrWT0iLCJtYWMiOiI3NzQzZGFjNzQxMjY3MmVlNjc1M2UwOWJkYmQ0NGQyOWU0NDY3ZjAyMDcyNGNmZDcyYWMzY2IxNjZhMGQ5MTIxIn0%3D"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "cross-site-cookie",
+        "path": "/one-ux",
+        "sameSite": "strict",
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "name"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1736375228.633585,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "XSRF-TOKEN",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6InhIdm5LN0NBbXBsQ2NCWlY2QUw5Nmc9PSIsInZhbHVlIjoickw4K2xFNnE2NHlGWVMrRHRFMzh2bFkxZDlGSm9WMGJ1VG1qa09RZUpsaE9BdkFKZ1pxUFZ4WWlcL1MzbEpLcUwiLCJtYWMiOiI3OTY4YjE0ZmJjMzMzN2ZlMGY0YTlhNGIwMTZiMjA2ZmFmOTI3MDk2NWY3ZGJiOTJiYmNkZjVjMTgwMjlhZTZiIn0%3D"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1736375228.633648,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "aldmic_session",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6Inp1UTN3VlBXN3ZieHl0ZExGT3plUXc9PSIsInZhbHVlIjoiV25qQ2d0Q0h6bDl0YlFiNDlMbll6Rys1M21tY0JXcnhoZnZjWndmVWowVEpZWWw2RDBXSUt5ZXhlcndRY2xJWCIsIm1hYyI6IjFjZGY1NWQyYzMwNzc2Nzc1NGU0YTEwMWEwN2M4ZTc4YjYzMjQ0YTI3Y2NlZTk5ZDA3MzU5YWUwYzA3YmI3YmUifQ%3D%3D"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1736385989.953191,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "one-ux",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6ImIwK0MwclYyRjB0cnUyMlU4eElRSUE9PSIsInZhbHVlIjoibWJvNkRlOU55S3pvY3hNKytwOFRBQT09IiwibWFjIjoiMjQzOGRmODU5OWE5NDgxODI1NjYxNGJiM2Q4MWY5OWU3NDM4MTM3MGI3N2YwOWY1NmJmMWU1NDNjZWM3YTVjNSJ9"
+    }
+]
