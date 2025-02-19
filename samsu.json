@@ -26,7 +26,7 @@
     },
     {
         "domain": "loyalty.aldmic.com",
-        "expirationDate": 1739951033.610632,
+        "expirationDate": 1739951141.487962,
         "hostOnly": true,
         "httpOnly": false,
         "name": "XSRF-TOKEN",
@@ -35,11 +35,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJpdiI6IjF6dWFrT09mVkdcL0Vlc0Qxd1l6UFlnPT0iLCJ2YWx1ZSI6IlNYNytka1RFRDRoTENLMFNNRXNnQkszNmhyUmtJSVpFTWg3XC91RUZGVUxldjI2RFBYNkl0V0YySVlHWlNFbEdrIiwibWFjIjoiMjA0MjAyODRkN2RlY2FkZGFiZjY2ZWZmMjhjMGRkYmE3YWE3YzJlZjkyZGM2ZTdiMjM3YzljMzc0YTY1YTM5YiJ9"
+        "value": "eyJpdiI6IkNsSURhZTFkMWp2VTF0V1BNa3dveHc9PSIsInZhbHVlIjoicGdTazVnS3c0M093RXU5dVhUTlJpREFQOHlSeDdlQVwvQktQSUR3QnpGUmlcL2NkUkE1d3hcL21vWklVT2tzdyt0SiIsIm1hYyI6ImNiYjljM2NkZWE0ODkwOGM1MTdmNjc2OTlkOTQ4MTE1MWRiNmVmMWYwZDcxNzIwODU1ZDhkMWZjNWQ0NmJmMzAifQ%3D%3D"
     },
     {
         "domain": "loyalty.aldmic.com",
-        "expirationDate": 1739951033.610662,
+        "expirationDate": 1739951141.487992,
         "hostOnly": true,
         "httpOnly": true,
         "name": "aldmic_session",
@@ -48,7 +48,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJpdiI6IlNWd29zT0FPczZ3WXVvYTFGclNxZFE9PSIsInZhbHVlIjoiSUFsOFpOV1JKYTN3U1ZwQ1IyR2ZmdUZoQXVjVnhjTmhYQWptOXBLQjRpZ05zVUFRYUZPc2NLODA0QWQwcnY1eCIsIm1hYyI6IjA0NDUzMDQ0MjEwODIyZmUxZTA2ODFlYzE1NmExNGViMTA0MDkxYTBlZmNjZjhlNmJhY2E1MTgzYTg5MDM0NTIifQ%3D%3D"
+        "value": "eyJpdiI6ImpQTk5GR08rS0NZN1RkTFVZNCtVWkE9PSIsInZhbHVlIjoiczRWdXFCSU5ZWTBldGh1SFkzUWZvMCtOVDZnTWNtZWdcL0JIaTJlWE1XM0llMVlRb2pDa3ZibVVGV2EyemQ2THEiLCJtYWMiOiJmZjBjYTJjN2YxMzJmNzA0ZTU1ODkxNjhmZWRiMmIyZjQ3ZGNmMjFjMTg5MDVjMzMzMGFkOWExOTM2NzJkMTE0In0%3D"
     },
     {
         "domain": "loyalty.aldmic.com",
