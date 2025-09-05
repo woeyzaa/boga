@@ -1,0 +1,66 @@
+[
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1757074223.421983,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "source_site",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6IllWSEFJSVk5c0hyYjRhNlUxXC9cLzhrdz09IiwidmFsdWUiOiJkVzNOcHpTc2ZnalpxMUw0cmZYdFA5dUtYVUtqdmhPXC93UUpzU1hQYXVRQT0iLCJtYWMiOiIwZGZkNjdkZDNhMmQ1MDBkZTE5OWE5M2JjYTA1YWNlY2U1YmEyNGM5OGZlMDM0Yjk1ZmRjMWE4ZmM5MjI5OGU5In0%3D"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "cross-site-cookie",
+        "path": "/one-ux",
+        "sameSite": "strict",
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "name"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1757063503.085669,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "XSRF-TOKEN",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6IjZcL2R5YVJcL3BSXC9Rbmh4SWtMWnF5Z3c9PSIsInZhbHVlIjoiNjZKcm9OQXY3eXZ6MUo3cndKSnAwV044NmxYbVpWZVlLbFY0SGIwTTJSN2ZuQ2x6bFRVRWtiUXkxR003XC9ubVoiLCJtYWMiOiJkZTk1YWYzMjEwOTViODMwN2Y4ZTViNWYxM2NlZjkzZmY5NDdiMGVhYzY5OWUxYTRjMDIwNTNjMmRkODg0MTA2In0%3D"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1757063503.085772,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "aldmic_session",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6ImhPS2pSaTJnT2dOWHNpTDFIWEtNTEE9PSIsInZhbHVlIjoiZG12RWRLSFphRXhTUE9SQXMwXC9Sajg5emJ4MmZ4UjhvdmhcL0F2TVNlY3F5U1pJK3k1MlVvZ3VUdGZPUWVITFhUIiwibWFjIjoiNjE2NTVlYmNlNjMyZWUwNDgzNjA5NmEzZjBlNTYzOGIzNTRjYmMwMzY3NWU1ZmUwMmY3ODIyZmRmMGMzMWJiNSJ9"
+    },
+    {
+        "domain": "loyalty.aldmic.com",
+        "expirationDate": 1757074223.421898,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "one-ux",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJpdiI6IlByMjhqR0Y5UWlwb3FndkJ3T3VFOFE9PSIsInZhbHVlIjoiazlQb05LaWRWVkVOWFV1KzNQanh6QT09IiwibWFjIjoiYWRkNDNiNjg4ZjVmZDJmZjk4MTY2NDMxMDcyZjM5ZjE5NDM4N2I1MjFmYzM4YzVkMTdlZDk1N2Y2NWI4NjZlOCJ9"
+    }
+]
