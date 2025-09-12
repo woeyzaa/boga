@@ -17,7 +17,7 @@
         "hostOnly": true,
         "httpOnly": true,
         "name": "cross-site-cookie",
-        "path": "/",
+        "path": "/one-ux",
         "sameSite": "strict",
         "secure": true,
         "session": true,
@@ -26,7 +26,7 @@
     },
     {
         "domain": "loyalty.aldmic.com",
-        "expirationDate": 1757694244.845327,
+        "expirationDate": 1757694398.901203,
         "hostOnly": true,
         "httpOnly": false,
         "name": "XSRF-TOKEN",
@@ -35,11 +35,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJpdiI6Iml5ZGd0aTBXOWg5TTJ3dHVpelVlZ3c9PSIsInZhbHVlIjoiYmk4VlQxODF5blhudWs5ZTFBdmNqQVYweFlXc1VCN3EwZUZFbG5JOGdNYzZoOEVDOWtHK0hTYmdUT3MrQUlcLzkiLCJtYWMiOiIwNTA3ZDFlM2QyZTViMjM4MjZiZTk2OGY4ODIxZTMyMjMzMDZlMWUwZmJiNDc3ZWQ5MTBmN2JlYmQ0OWJiNzBhIn0%3D"
+        "value": "eyJpdiI6InNnRVZDY25oREhNOUFKalNRK1NwQmc9PSIsInZhbHVlIjoiTkxhaEtZQlwvcHpubGJ2UHlRMk5WXC8ydnVySjVzZzlaRTdVUEMrVXVSbnNuU3pzdlVcL3Vxdll4c2JuVHMrQUllaSIsIm1hYyI6ImI0NTMwY2MyNmYzZmQ4ZGU0ZTgzMzI4ODU5NmEwMjAzNTBjMjMwYzVkNGFhZjNlMDcyZGQ4YjQ4Y2ZjMzk3NDgifQ%3D%3D"
     },
     {
         "domain": "loyalty.aldmic.com",
-        "expirationDate": 1757694244.84562,
+        "expirationDate": 1757694398.901319,
         "hostOnly": true,
         "httpOnly": true,
         "name": "aldmic_session",
@@ -48,7 +48,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "eyJpdiI6IjM1SytTelwvM29vMmEzZ1pCdVJReWRnPT0iLCJ2YWx1ZSI6IlVjelwvRllOUCtRa29DYXJnZmVwTFR6NzNRMmJ3bDlDWjFrRDJPZWZabnF1R1RWSVFZU3pQYVBPMXM3bWdCZHc3IiwibWFjIjoiYmQxNjI3ODMxYTdjOTJmZmU2ODFkZWExNDBkMDMxNTVlNjUxMjRkZjdjZWU3YmUxOGEwNDc5MGNkYmM0OWNhMyJ9"
+        "value": "eyJpdiI6InkyQ2wwUWM1QzBvcUZSVHd4NzdXa1E9PSIsInZhbHVlIjoiZ3BnSE9iRWpqWFlySzB1R1FzWTVkNlpLakUzV3kyTytVVzlhYzl2aVg2WWZPbVI5WmNqVmRzajRoUnROWGRDSiIsIm1hYyI6Ijc2Nzc5MWYyNjBlODdkN2M1MDliNjM4Y2MzNjU5ODRlZDUxYzYwMTYzNTE5MDk2Zjg4MmMwM2JjMDE1ZDdjMzYifQ%3D%3D"
     },
     {
         "domain": "loyalty.aldmic.com",
